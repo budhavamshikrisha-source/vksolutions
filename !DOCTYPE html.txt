@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VK Solutions - Credit Cards & Loans</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background: #b30000;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 10px 0 0;
+      font-size: 1.2em;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .service {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      flex: 1 1 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .service h3 {
+      color: #b30000;
+    }
+    .contact {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+      width: 100%;
+    }
+    button {
+      background: #b30000;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #990000;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VK Solutions</h1>
+    <p>Your Trusted Partner for Credit Cards & Loans</p>
+  </header>
+
+  <section>
+    <h2 style="text-align:center; color:#b30000;">Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Credit Card to Bank Transfer</h3>
+        <p>Instant transfer from all major credit cards directly to your bank account.</p>
+      </div>
+      <div class="service">
+        <h3>Personal Loans</h3>
+        <p>Quick and easy loan approvals with flexible repayment options.</p>
+      </div>
+      <div class="service">
+        <h3>Home Loans</h3>
+        <p>Low interest home loans with hassle-free processing.</p>
+      </div>
+      <div class="service">
+        <h3>Credit Cards</h3>
+        <p>Apply for all types of credit cards with exciting offers.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 style="text-align:center; color:#b30000;">Contact Us</h2>
+    <div class="contact">
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Your Phone Number" required>
+        <textarea rows="4" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    <p style="text-align:center; margin-top:15px;">
+      📞 +91 9032255718 | ✉️ info@vksolutions.com
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 VK Solutions. All rights reserved.</p>
+  </footer>
+</body>
+</html>
